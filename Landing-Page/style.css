@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    font-family: 'inter'; 
+
+}
+
+#PRIMEIROMENU{
+    margin-left: 120px;
+    margin-right: 180px;
+    margin-top: 110px;
+    padding: 5%;
+    background-color: #303030;
+}
+
+#TITULOINICIAL{
+    font-size: 3em;
+    color: white;
+}
+
+#TITULOMENOR{
+    color: white;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+#QUADRANTE2{
+    background-color: #F9F9F9;
+    color: rgb(0, 0, 0);
+    margin-left: 120px;
+    margin-right: 180px;
+    margin-top: 0%;
+    padding: 1%;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+
+}
+#t580, #t40, #t2m{
+    padding: 2em;
+
+}
+
+#QUADRANTEARQUITETO{
+    margin-left: 140px;
+    margin-right: 180px;
+    margin-top: -5%;
+    padding: 0%;
+    background-color: white;
+    
+ 
+}
+
+#tituloarquiteros{
+    padding-top: 25%;
+    font-size: 27px;
+    font: bolder;
+    margin-left: 49px;
+
+
+
+}
+
+#textoarquitetos{
+
+    margin-left: 49px;
+}
+
+#casa{
+    margin-left: 620px;
+    margin-top: -280px;
+    border-radius: 5%;
+
+}
+
+#CONHECAMAIS{
+    margin-left: 120px;
+    margin-right: 180px;
+    margin-top: 110px;
+    padding: 5%;
+    background-color: #303030;
+    display: grid;
+    grid-auto-flow:row;
+    columns: auto;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+input{
+    width: 408px;
+    height: 50px;
+    background-color:  #FFFFFF;
+    margin: 3px;
+    border: 2px;
+    border-radius: 5px;
+    padding-left: 13px;
+}
+
+button{
+    background-color: #C07212;
+    color: white;
+    Width: 186px;
+    Height: 44px;
+    border: 2px;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: #9b5b0d;
+    transform: translateY(-1px);
+    box-shadow: 0px 15px 20px #683f0d63 ;
+    transition-duration: 0.3;
+    
+}
